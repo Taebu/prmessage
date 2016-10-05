@@ -1,7 +1,13 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'].'/adm/lib/db_conn.php');
+
+/* 1. 테이블 생성시 보드에 해당 내용 insert */
 $sql=array();
-$sql[]="CREATE TABLE `g5_write_".$bo_table."` (";
+$sql[]="";
+
+/* 2. 테이블 생성 */
+$sql=array();
+$sql[]="CREATE TABLE `pm_write_".$bo_table."` (";
 $sql[]="`wr_id` int(11) NOT NULL AUTO_INCREMENT,";
 $sql[]="`wr_num` int(11) NOT NULL DEFAULT '0',";
 $sql[]="`wr_reply` varchar(10) NOT NULL,";

@@ -24,7 +24,7 @@ event_dt로 관리, expired, 관리자 서비스 중지전 3일간 알림
 <tbody>
 <?php
 $sql_array=array();
-$sql_array[]="select * from pm_member limit 10;";
+$sql_array[]="select * from pm_tickets limit 10;";
 $sql=join("",$sql_array);
 $query=mysql_query($sql);
 while($list=mysql_fetch_assoc($query)){

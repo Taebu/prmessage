@@ -4,6 +4,7 @@
 <p>게시판 관리</p>
 생성, 삭제, 복사, 그룹
 <input type="button" value="생성" onclick="location.href='write.php';">
+
 <table class='ibk_board'>
 <thead>
 	<tr>
