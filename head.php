@@ -8,8 +8,8 @@ a:link{text-decoration:none;}
 <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
 <div id="wrap">
 <ul id='top_menu'>
-	<li><a href="/adm/sub/bbs/list.php">게시판 관리</a></li>
-	<li><a href="/adm/sub/member/list.php">회원 관리</a></li>
-	<li><a href="/adm/sub/service/list.php">서비스 관리</a></li>
-	<li><a href="/adm/sub/menu/list.php">메뉴 관리</a></li>
+	<li onclick="location.href='/adm/sub/bbs/list.php'"><a href="">게시판 관리</a></li>
+	<li onclick="location.href='/adm/sub/member/list.php'"><a href="">회원 관리</a></li>
+	<li onclick="location.href='/adm/sub/service/list.php'"><a href="">서비스 관리</a></li>
+	<li onclick="location.href='/adm/sub/menu/list.php'"><a href="">메뉴 관리</a></li>
 </ul>
